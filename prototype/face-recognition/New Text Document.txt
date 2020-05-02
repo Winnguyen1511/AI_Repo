@@ -1,0 +1,7 @@
+//convert videos to images
+# python cut-frame.py --input videos/thinh.mov --output dataset/thinh --detector face_detector --skip 1
+# python cut-frame.py --input videos/tam.mp4 --output dataset/tam --detector face_detector --skip 1
+
+//run program
+python create_embeddings.py
+python face-recognition.py
